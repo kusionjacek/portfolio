@@ -17,9 +17,9 @@ $("a[href^='#']").click(function(e) {
 
 $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
-      $("#main-nav").removeClass('white')&&$('.query').removeClass('after');   
+      $("#main-nav").addClass('white')&&$('.query').addClass('after');   
     }else{
-        $("#main-nav").addClass('white')&&$('.query').addClass('after');
+        $("#main-nav").removeClass('white')&&$('.query').removeClass('after');
     }
 });
     

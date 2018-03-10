@@ -36,12 +36,11 @@ section{
     z-index: 10;
 }
 .bg0{
-    background-color: white;
-    color: #1ac056;
+    background-color: transparent;
 }
 .white{
-    background-color: transparent;
-    color: white;
+    background-color: white;
+    
 }
 #main-nav ul{
     margin: 0;
@@ -57,10 +56,10 @@ section{
 
 nav ul li a{
     text-decoration: none;
-    color: #1ac056;
+    color: white;
 }
 .after{
-    color: white;
+    color: #1ac056;
 }
 
 #main-nav ul li a:hover{
