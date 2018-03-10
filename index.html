@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- meta:vp -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje portfolio</title>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Roboto:100,300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <!--Custom syles-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- responsive -->
+    <link rel="stylesheet" href="css/reponsive.css">
+</head>
+
+<body>
+    <!--Main navigation-->
+    <nav id="main-nav">
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop">
+       
+        <ul>
+            <li><a href="#about">o mnie</a></li>
+            <li><a href="#skills">umiejętności</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!--Main Header-->
+    <header id="main-header">
+        <div class="main-header-content">
+            <h1>Dzacek <span>Kusion</span></h1>
+            <h2>front-end developer</h2>
+        </div>
+    </header>
+
+    <!--Section About-->
+    <section id="about">
+        <h2>O <span>mnie</span></h2>
+        <figure>
+            <img src="img/jan-nowak.jpg" alt="jacek K">
+        </figure>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, ipsum. Culpa ipsam delectus esse, voluptatem sint nulla cum doloremque ratione nemo, consequatur totam possimus eaque nisi nihil. Illo accusantium, pariatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore aliquid sunt laboriosam vero dolorum soluta repudiandae nihil dicta veniam, tenetur sequi totam adipisci iste dolores omnis quas deleniti eligendi officiis!</p>
+        </article>
+    </section>
+
+    <!--Section Skills-->
+    <section id="skills">
+        <h2>Moje <span>umiejętności</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente fuga, ad inventore impedit eaque qui illo quisquam, cumque vitae error in dolor? Ipsa excepturi quisquam harum dolore sed mollitia tempora.</p>
+        <div id="skills-icons">
+            <figure>
+                <img src="icons/html5.png" alt="">
+                <figcaption>HTML5</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/css3.png" alt="">
+                <figcaption>CSS3</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/js.png" alt="">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/jquery.png" alt="">
+                <figcaption>jQuery</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- portfolio start -->
+    <!-- section#portfolio>(h2{Moje }>span{portfolio})+.background*3>.mask>.border>.content -->
+    <section id="portfolio">
+        <h2>Moje <span>portfolio</span></h2>
+        <div class="background" id="bg1">
+            <div class="mask">
+                <div class="border">
+                    <div class="content">
+                        <h3>lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, blanditiis.</p>
+                        <h4>wykorzystane technologie:</h4>
+                        <p>html, css, javascript, boostrap</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background" id="bg2">
+            <div class="mask">
+                <div class="border">
+                    <div class="content">
+                        <h3>lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, blanditiis.</p>
+                        <h4>wykorzystane technologie:</h4>
+                        <p>html, css, javascript, boostrap</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="background" id="bg3">
+            <div class="mask">
+                <div class="border">
+                    <div class="content">
+                        <h3>lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, blanditiis.</p>
+                        <h4>wykorzystane technologie:</h4>
+                        <p>html, css, javascript, boostrap</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- contact section -->
+    <!-- section#contact>(.inner>(h2{Marcin }>span{G})+address+.social-media>a*4>i.fa.fa-2x)+.inner>form>(input*2+textarea)+input[type="submit"] -->
+    <section id="contact">
+        <div class="inner">
+            <h2>Dzacek <span>K</span></h2>
+            <address>
+                ul. Krakowska 6/13<br>
+                31-061 Kraków<br><br>
+                tel: 606 000 000<br>
+                email: <a href="mailto:kursy@akademia108.pl">kursy@zadania.pl</a>
+            </address>
+            <div class="social-media">
+                <a href=""><i class="fa fa-facebook fa-2x"></i></a>
+                <a href=""><i class="fa fa-google-plus fa-2x"></i></a>
+                <a href=""><i class="fa fa-twitter fa-2x"></i></a>
+                <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="inner">
+            <form action="">
+                <input type="text" placeholder="imię i nazwisko">
+                <input type="text" placeholder="adres e-mail">
+                <textarea name="msg" id="msg" placeholder="wpisz wiadomość"></textarea>
+                <input type="submit" value="wyślij">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Copyrights &copy; MG</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src='js/main.js'></script>
+</body>
+
+</html>

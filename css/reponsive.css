@@ -1,0 +1,58 @@
+@media all and (max-width: 1200px) {
+    #portfolio .background {
+        width: 50%;
+    }
+    
+    #portfolio .background:last-of-type {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    #portfolio .background,
+    #contact .inner,
+    #about figure,
+    #about article {
+        width: 100%;
+    }
+    
+    #about figure img {
+        height: auto;
+        width: 100%;
+    }
+    
+    #contact .inner,
+    #contact .inner h2 {
+        text-align: center;
+    }
+    
+    #main-header .main-header-content h1 {
+        font-size: 3em;
+    }
+    
+    #main-nav .toggle {
+        display: block;
+        color: #1ac056;
+        padding: 20px 40px;
+        text-align: right;
+    }
+    
+    #main-nav ul {
+        display: none;
+    }
+    
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+    
+    #main-nav ul li {
+        display: block;
+        text-align: right;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #main-header .main-header-content h1 {
+        font-size: 2em;
+    }
+}
