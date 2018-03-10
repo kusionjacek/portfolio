@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 console.log('test');
-});
+
 
 $("a[href^='#']").click(function(e) {
 	e.preventDefault();
@@ -12,3 +12,15 @@ $("a[href^='#']").click(function(e) {
 		scrollTop: position
 	},1000);
 });
+
+
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $("#main-nav").removeClass('white')&&$('.query').removeClass('after');   
+    }else{
+        $("#main-nav").addClass('white')&&$('.query').addClass('after');
+    }
+});
+    
+    });

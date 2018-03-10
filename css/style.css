@@ -33,13 +33,20 @@ section{
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #fff;
     z-index: 10;
 }
-
+.bg0{
+    background-color: white;
+    color: #1ac056;
+}
+.white{
+    background-color: transparent;
+    color: white;
+}
 #main-nav ul{
     margin: 0;
     float: right;
+    
 }
 
 #main-nav ul li{
@@ -48,9 +55,12 @@ section{
     padding: 20px 40px;
 }
 
-#main-nav ul li a{
+nav ul li a{
     text-decoration: none;
     color: #1ac056;
+}
+.after{
+    color: white;
 }
 
 #main-nav ul li a:hover{
